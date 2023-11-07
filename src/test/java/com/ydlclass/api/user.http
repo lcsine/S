@@ -1,0 +1,11 @@
+GET http://localhost:8080/app/user/getOne
+###
+POST http://localhost:8080/app/user/insert
+Content-Type: application/x-www-form-urlencoded
+
+username=tom&password=123&birthday=2001-01_1
+###
+POST http://localhost:8080/app/user/insertUsers
+Content-Type: application/json
+
+{"username": "tom","password": "123"}
